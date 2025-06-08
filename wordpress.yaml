@@ -44,6 +44,7 @@ Resources:
           usermod -a -G docker ec2-user
           docker pull wordpress:latest
           docker run -d -p 8080:80 wordpress
+          sudo iptables -F
       Tags:
         - Key: Name
           Value: WordPress
