@@ -6,7 +6,7 @@ Parameters:
     Default: wordpress
   InstanceType:
     Type: String
-    Default: t2.micro
+    Default: t2.small
   VpcId:
     Type: AWS::EC2::VPC::Id
     Default: vpc-0f0640fbd0f795b3e
